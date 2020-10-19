@@ -1,6 +1,6 @@
 #!/bin/bash
 Dirname="DDM"
-for i in {1..5}
+for i in {1..100}
 do
     dir="$Dirname"$i  #$表示取值，双引号翻译变量，单引号不翻译变量
     mkdir -p $dir #注意p后面一定要有空格
